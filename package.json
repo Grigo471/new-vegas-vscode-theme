@@ -1,21 +1,24 @@
 {
-  "name": "fallout-new-vegas-pip-boy-theme",
-  "displayName": "Fallout New Vegas Pip Boy Theme",
-  "description": "Theme for VS Code inspired by Fallout New Vegas interface ",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.96.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "New Vegas",
-        "uiTheme": "vs-dark",
-        "path": "./themes/New Vegas-color-theme.json"
-      }
-    ]
-  }
+	"name": "fallout-new-vegas-pip-boy-theme",
+	"displayName": "Fallout New Vegas Pip Boy Theme",
+	"description": "Theme for VS Code inspired by Fallout New Vegas Pip Boy",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "New Vegas",
+				"uiTheme": "vs-dark",
+				"path": "./themes/new-vegas-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 108379
+	}
 }
